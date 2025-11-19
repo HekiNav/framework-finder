@@ -2,7 +2,9 @@
   "dependencies": {
     "playwright": "^1.56.1"
   },
+  "type": "module",
   "devDependencies": {
+    "@types/node": "^24.10.1",
     "tsx": "^4.20.6"
   }
 }
