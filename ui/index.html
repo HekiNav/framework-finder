@@ -1,13 +1,55 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Framework finder</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Framework finder</title>
+</head>
+
+<body>
+  <div id="app" class="text-center bg-primary">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col col-lg-6 col-sm-6 my-5 p-3 bg-white rounded" id="app">
+        <h1>Framework Finder</h1>
+        <p>Find the perfect framework laptop for you</p>
+        <button class="btn btn-primary btn-lg">Begin</button>
+        <div id="form" class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBudget"
+                aria-expanded="true" aria-controls="collapseBudget">
+                1. Budget
+              </button>
+            </div>
+            <div id="collapseBudget" class="accordion-collapse collapse" data-bs-parent="#form">
+              <div class="accordion-body">
+                Think about your budget range
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMemory"
+                aria-expanded="true" aria-controls="collapseMemory">
+                2. Memory
+              </button>
+            </div>
+            <div id="collapseMemory" class="accordion-collapse collapse" data-bs-parent="#form">
+              <div class="accordion-body">
+                How much ram do you really need?
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col"></div>
+    </div>
+
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
