@@ -1,1745 +1,2168 @@
 [
-    [
-        {
-            "id": "color",
-            "title": "Color",
-            "options": [
-                {
-                    "name": "Available for this configuration: Black",
-                    "price": []
-                }
-            ]
-        },
-        {
-            "id": "processor",
-            "title": "System",
-            "options": [
-                {
-                    "name": "Base - EU",
-                    "price": [
-                        "€879"
-                    ]
-                },
-                {
-                    "name": "Performance - EU",
-                    "price": [
-                        "€1,109"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "keyboard",
-            "title": "Keyboard",
-            "options": [
-                {
-                    "name": "German - Windows - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "International English - Windows - Gray",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "power-adapter",
-            "title": "Power Adapter",
-            "options": [
-                {
-                    "name": "UK / IE / HK / SG",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "EU / KR",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "expansion-cards",
-            "title": "Expansion Cards",
-            "options": []
-        }
-    ],
-    [
-        {
-            "id": "color",
-            "title": "Color",
-            "options": [
-                {
-                    "name": "Black",
-                    "price": []
-                },
-                {
-                    "name": "Gray",
-                    "price": []
-                },
-                {
-                    "name": "Lavender",
-                    "price": []
-                },
-                {
-                    "name": "Bubblegum",
-                    "price": []
-                },
-                {
-                    "name": "Sage",
-                    "price": []
-                }
-            ]
-        },
-        {
-            "id": "processor",
-            "title": "System",
-            "options": [
-                {
-                    "name": "i3-1315U",
-                    "price": [
-                        "€599"
-                    ]
-                },
-                {
-                    "name": "i5-1334U",
-                    "price": [
-                        "€769"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "memory",
-            "title": "Memory",
-            "options": [
-                {
-                    "name": "DDR5-5600 - 8GB (1 x 8GB) ",
-                    "price": [
-                        "+€45"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 16GB (1 x 16GB)",
-                    "price": [
-                        "+€90"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 32GB (1 x 32GB)",
-                    "price": [
-                        "+€180"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 48GB (1 x 48GB)",
-                    "price": [
-                        "+€270"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "storage",
-            "title": "Storage",
-            "options": [
-                {
-                    "name": "WD_BLACK™ SN770M NVMe™ - M.2 2230 - 500GB",
-                    "price": [
-                        "+€109"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN770M NVMe™ - M.2 2230 - 1TB",
-                    "price": [
-                        "+€179"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN770M NVMe™ - M.2 2230 - 2TB",
-                    "price": [
-                        "+€299"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "operating-system",
-            "title": "Operating System",
-            "options": [
-                {
-                    "name": "Windows 11 Home (Download)",
-                    "price": [
-                        "+€145"
-                    ]
-                },
-                {
-                    "name": "Windows 11 Pro (Download)",
-                    "price": [
-                        "+€259"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "keyboard",
-            "title": "Keyboard",
-            "options": [
-                {
-                    "name": "Swedish/Finnish - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "International English - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "British English - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "US English - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "US English - Lavender",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "French Canadian - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Spanish (Spain) - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Spanish (Latin America) - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "French - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "German - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Italian - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Belgian - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Korean - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Traditional Chinese (Cangjie & Zhuyin) - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Danish - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Hungarian - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Slovenian - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Czech/Slovak - Gray",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Portuguese - Gray",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "power-adapter",
-            "title": "Power Adapter",
-            "options": [
-                {
-                    "name": "Power Adapter - 60W - EU",
-                    "price": [
-                        "+€49"
-                    ]
-                },
-                {
-                    "name": "Power Adapter - 60W - UK",
-                    "price": [
-                        "+€49"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "expansion-cards",
-            "title": "Expansion Cards",
-            "options": []
-        }
-    ],
-    [
-        {
-            "id": "processor",
-            "title": "System",
-            "options": [
-                {
-                    "name": "Available for this configuration: Extended Pro - DE",
-                    "price": [
-                        "€2,459"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "expansion-cards",
-            "title": "Expansion Cards",
-            "options": []
-        }
-    ],
-    [
-        {
-            "id": "processor",
-            "title": "System",
-            "options": [
-                {
-                    "name": "Base",
-                    "price": [
-                        "€1,079"
-                    ]
-                },
-                {
-                    "name": "Performance",
-                    "price": [
-                        "€1,539"
-                    ]
-                },
-                {
-                    "name": "Professional",
-                    "price": [
-                        "€1,749"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "expansion-cards",
-            "title": "Expansion Cards",
-            "options": []
-        }
-    ],
-    [
-        {
-            "id": "processor",
-            "title": "System",
-            "options": [
-                {
-                    "name": "Base",
-                    "price": [
-                        "€1,209"
-                    ]
-                },
-                {
-                    "name": "Performance",
-                    "price": [
-                        "€1,669"
-                    ]
-                },
-                {
-                    "name": "Extended Productivity",
-                    "price": [
-                        "€1,419"
-                    ]
-                },
-                {
-                    "name": "Extended Performance",
-                    "price": [
-                        "€1,809"
-                    ]
-                },
-                {
-                    "name": "Extended Pro",
-                    "price": [
-                        "€2,209"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "expansion-cards",
-            "title": "Expansion Cards",
-            "options": []
-        }
-    ],
-    [
-        {
-            "id": "processor",
-            "title": "System",
-            "options": [
-                {
-                    "name": "Base",
-                    "price": [
-                        "€1,079"
-                    ]
-                },
-                {
-                    "name": "Performance",
-                    "price": [
-                        "€1,399"
-                    ]
-                },
-                {
-                    "name": "Professional",
-                    "price": [
-                        "€1,889"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "expansion-cards",
-            "title": "Expansion Cards",
-            "options": []
-        }
-    ],
-    [
-        {
-            "id": "processor",
-            "title": "System",
-            "options": [
-                {
-                    "name": "Ryzen™ AI 5 340",
-                    "price": [
-                        "€1,089"
-                    ]
-                },
-                {
-                    "name": "Ryzen™ AI 7 350",
-                    "price": [
-                        "€1,489"
-                    ]
-                },
-                {
-                    "name": "Ryzen™ AI 9 HX 370",
-                    "price": [
-                        "€1,969"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "display",
-            "title": "Display",
-            "options": [
-                {
-                    "name": "2.2K Display",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "2.8K Display",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "memory",
-            "title": "Memory",
-            "options": [
-                {
-                    "name": "DDR5-5600 - 8GB (1 x 8GB) ",
-                    "price": [
-                        "+€45"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 16GB (2 x 8GB)",
-                    "price": [
-                        "+€90"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 16GB (1 x 16GB)",
-                    "price": [
-                        "+€90"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 32GB (2 x 16GB)",
-                    "price": [
-                        "+€180"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 32GB (1 x 32GB)",
-                    "price": [
-                        "+€180"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 64GB (2 x 32GB) ",
-                    "price": [
-                        "+€360"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 48GB (1 x 48GB)",
-                    "price": [
-                        "+€270"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 96GB (2 x 48GB)",
-                    "price": [
-                        "+€540"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "storage",
-            "title": "Storage",
-            "options": [
-                {
-                    "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 500GB",
-                    "price": [
-                        "+€79"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 1TB",
-                    "price": [
-                        "+€115"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 2TB",
-                    "price": [
-                        "+€229"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 4TB",
-                    "price": [
-                        "+€379"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 1TB",
-                    "price": [
-                        "+€139"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 2TB",
-                    "price": [
-                        "+€269"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 4TB",
-                    "price": [
-                        "+€390"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 8TB",
-                    "price": [
-                        "+€815"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "operating-system",
-            "title": "Operating System",
-            "options": [
-                {
-                    "name": "Windows 11 Home (Download)",
-                    "price": [
-                        "+€145"
-                    ]
-                },
-                {
-                    "name": "Windows 11 Pro (Download)",
-                    "price": [
-                        "+€259"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "keyboard",
-            "title": "Keyboard",
-            "options": [
-                {
-                    "name": "Swedish/Finnish (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "US English (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "International English (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Blank ANSI (2nd Gen)",
-                    "price": [
-                        "+€11"
-                    ]
-                },
-                {
-                    "name": "Blank ISO (2nd Gen)",
-                    "price": [
-                        "+€11"
-                    ]
-                },
-                {
-                    "name": "Clear ANSI (2nd Gen)",
-                    "price": [
-                        "+€11"
-                    ]
-                },
-                {
-                    "name": "Clear ISO (2nd Gen)",
-                    "price": [
-                        "+€11"
-                    ]
-                },
-                {
-                    "name": "British English (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Belgian (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Czech/Slovak (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Danish (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "French (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "French Canadian (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "German (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Hungarian (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Italian (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Korean (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Portuguese (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Slovenian/Croatian (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Spanish (Latin American) (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Spanish (Spain) (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Traditional Chinese (2nd Gen)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "bezel",
-            "title": "Bezel",
-            "options": [
-                {
-                    "name": "Framework Laptop 13 Bezel - Black",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Orange",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Lavender",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Green",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Gray",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Red",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Translucent",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Translucent Purple",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Translucent Green",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Translucent Black",
-                    "price": [
-                        "+€10"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "power-adapter",
-            "title": "Power Adapter",
-            "options": [
-                {
-                    "name": "Power Adapter - 60W - EU",
-                    "price": [
-                        "+€49"
-                    ]
-                },
-                {
-                    "name": "Power Adapter - 60W - UK",
-                    "price": [
-                        "+€49"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "expansion-cards",
-            "title": "Expansion Cards",
-            "options": []
-        }
-    ],
-    [
-        {
-            "id": "processor",
-            "title": "System",
-            "options": [
-                {
-                    "name": "7640U",
-                    "price": [
-                        "€939"
-                    ]
-                },
-                {
-                    "name": "7640U - 2.8K Display",
-                    "price": [
-                        "€1,079"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "memory",
-            "title": "Memory",
-            "options": [
-                {
-                    "name": "DDR5-5600 - 8GB (1 x 8GB) ",
-                    "price": [
-                        "+€45"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 16GB (2 x 8GB)",
-                    "price": [
-                        "+€90"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 16GB (1 x 16GB)",
-                    "price": [
-                        "+€90"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 32GB (2 x 16GB)",
-                    "price": [
-                        "+€180"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 32GB (1 x 32GB)",
-                    "price": [
-                        "+€180"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 64GB (2 x 32GB) ",
-                    "price": [
-                        "+€360"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 48GB (1 x 48GB)",
-                    "price": [
-                        "+€270"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 96GB (2 x 48GB)",
-                    "price": [
-                        "+€540"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "storage",
-            "title": "Storage",
-            "options": [
-                {
-                    "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 500GB",
-                    "price": [
-                        "+€79"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 1TB",
-                    "price": [
-                        "+€115"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 1TB",
-                    "price": [
-                        "+€139"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 2TB",
-                    "price": [
-                        "+€229"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 2TB",
-                    "price": [
-                        "+€269"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 4TB",
-                    "price": [
-                        "+€379"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 4TB",
-                    "price": [
-                        "+€390"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 8TB",
-                    "price": [
-                        "+€815"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "operating-system",
-            "title": "Operating System",
-            "options": [
-                {
-                    "name": "Windows 11 Home (Download)",
-                    "price": [
-                        "+€145"
-                    ]
-                },
-                {
-                    "name": "Windows 11 Pro (Download)",
-                    "price": [
-                        "+€259"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "keyboard",
-            "title": "Keyboard",
-            "options": [
-                {
-                    "name": "Swedish/Finnish (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "International English - Linux (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "US English (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "International English (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Blank ANSI (1st Gen)",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Blank ISO (1st Gen)",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Clear ANSI (1st Gen)",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Clear ISO (1st Gen)",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "British English (2nd Gen)",
-                    "price": [
-                        "+€20"
-                    ]
-                },
-                {
-                    "name": "Belgian (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Czech/Slovak (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Danish (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "French (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "French Canadian (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "German (2nd Gen)",
-                    "price": [
-                        "+€20"
-                    ]
-                },
-                {
-                    "name": "Hungarian (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Italian (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Japanese ",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Korean (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Portuguese (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Spanish (Latin American) (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Slovenian/Croatian (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Spanish (Spain) (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Traditional Chinese (Cangjie & Zhuyin) (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "bezel",
-            "title": "Bezel",
-            "options": [
-                {
-                    "name": "Framework Laptop 13 Bezel - Black",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Gray",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Orange",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Green",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Lavender",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Red",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Translucent",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Translucent Purple",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Translucent Green",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Translucent Black",
-                    "price": [
-                        "+€10"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "power-adapter",
-            "title": "Power Adapter",
-            "options": [
-                {
-                    "name": "Power Adapter - 60W - EU",
-                    "price": [
-                        "+€49"
-                    ]
-                },
-                {
-                    "name": "Power Adapter - 60W - UK",
-                    "price": [
-                        "+€49"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "expansion-cards",
-            "title": "Expansion Cards",
-            "options": []
-        }
-    ],
-    [
-        {
-            "id": "processor",
-            "title": "System",
-            "options": [
-                {
-                    "name": "Ultra 5 125H",
-                    "price": [
-                        "€969"
-                    ]
-                },
-                {
-                    "name": "Ultra 7 155H",
-                    "price": [
-                        "€1,339"
-                    ]
-                },
-                {
-                    "name": "Ultra 7 165H",
-                    "price": [
-                        "€1,789"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "display",
-            "title": "Display",
-            "options": [
-                {
-                    "name": "2.2K Display",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "2.8K Display",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "memory",
-            "title": "Memory",
-            "options": [
-                {
-                    "name": "DDR5-5600 - 8GB (1 x 8GB) ",
-                    "price": [
-                        "+€45"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 16GB (2 x 8GB)",
-                    "price": [
-                        "+€90"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 16GB (1 x 16GB)",
-                    "price": [
-                        "+€90"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 32GB (2 x 16GB)",
-                    "price": [
-                        "+€180"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 32GB (1 x 32GB)",
-                    "price": [
-                        "+€180"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 64GB (2 x 32GB) ",
-                    "price": [
-                        "+€360"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 48GB (1 x 48GB)",
-                    "price": [
-                        "+€270"
-                    ]
-                },
-                {
-                    "name": "DDR5-5600 - 96GB (2 x 48GB)",
-                    "price": [
-                        "+€540"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "storage",
-            "title": "Storage",
-            "options": [
-                {
-                    "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 500GB",
-                    "price": [
-                        "+€79"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 1TB",
-                    "price": [
-                        "+€115"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 1TB",
-                    "price": [
-                        "+€139"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 2TB",
-                    "price": [
-                        "+€229"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 2TB",
-                    "price": [
-                        "+€269"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 4TB",
-                    "price": [
-                        "+€379"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 4TB",
-                    "price": [
-                        "+€390"
-                    ]
-                },
-                {
-                    "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 8TB",
-                    "price": [
-                        "+€815"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "operating-system",
-            "title": "Operating System",
-            "options": [
-                {
-                    "name": "Windows 11 Home (Download)",
-                    "price": [
-                        "+€145"
-                    ]
-                },
-                {
-                    "name": "Windows 11 Pro (Download)",
-                    "price": [
-                        "+€259"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "keyboard",
-            "title": "Keyboard",
-            "options": [
-                {
-                    "name": "Swedish/Finnish (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "International English - Linux (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "US English (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "International English (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Blank ANSI (1st Gen)",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Blank ISO (1st Gen)",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Clear ANSI (1st Gen)",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Clear ISO (1st Gen)",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "British English (2nd Gen)",
-                    "price": [
-                        "+€20"
-                    ]
-                },
-                {
-                    "name": "Belgian (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Czech/Slovak (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Danish (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "French (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "French Canadian (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "German (2nd Gen)",
-                    "price": [
-                        "+€20"
-                    ]
-                },
-                {
-                    "name": "Hungarian (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Italian (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Japanese ",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Korean (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Portuguese (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Slovenian/Croatian (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Spanish (Latin American) (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Spanish (Spain) (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Traditional Chinese (Cangjie & Zhuyin) (1st Gen)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "bezel",
-            "title": "Bezel",
-            "options": [
-                {
-                    "name": "Framework Laptop 13 Bezel - Black",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Gray",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Orange",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Green",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Lavender",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Red",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Translucent",
-                    "price": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Translucent Purple",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Translucent Green",
-                    "price": [
-                        "+€10"
-                    ]
-                },
-                {
-                    "name": "Framework Laptop 13 Bezel - Translucent Black",
-                    "price": [
-                        "+€10"
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "power-adapter",
-            "title": "Power Adapter",
-            "options": [
-                {
-                    "name": "Power Adapter - 60W - EU",
-                    "price": [
-                        "+€49"
-                    ]
-                },
-                {
-                    "name": "Power Adapter - 60W - UK",
-                    "price": [
-                        "+€49"
-                    ]
-                },
-                {
-                    "name": "None (bring your own)",
-                    "price": [
-                        ""
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "expansion-cards",
-            "title": "Expansion Cards",
-            "options": []
-        }
-    ]
+    {
+        "id": "laptop12-intel-13gen",
+        "choices": [
+            {
+                "id": "color",
+                "title": "Color",
+                "options": [
+                    {
+                        "name": "Available for this configuration: Black",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "processor",
+                "title": "System",
+                "options": [
+                    {
+                        "name": "Base - EU",
+                        "price": 879
+                    },
+                    {
+                        "name": "Performance - EU",
+                        "price": 1109
+                    }
+                ]
+            },
+            {
+                "id": "keyboard",
+                "title": "Keyboard",
+                "options": [
+                    {
+                        "name": "German - Windows - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "International English - Windows - Gray",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "power-adapter",
+                "title": "Power Adapter",
+                "options": [
+                    {
+                        "name": "UK / IE / HK / SG",
+                        "price": 0
+                    },
+                    {
+                        "name": "EU / KR",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "expansion-cards",
+                "title": "Expansion Cards",
+                "options": []
+            }
+        ]
+    },
+    {
+        "id": "laptop12-diy-intel-13gen",
+        "choices": [
+            {
+                "id": "color",
+                "title": "Color",
+                "options": [
+                    {
+                        "name": "Black",
+                        "price": 0
+                    },
+                    {
+                        "name": "Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "Lavender",
+                        "price": 0
+                    },
+                    {
+                        "name": "Bubblegum",
+                        "price": 0
+                    },
+                    {
+                        "name": "Sage",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "processor",
+                "title": "System",
+                "options": [
+                    {
+                        "name": "i3-1315U",
+                        "price": 599
+                    },
+                    {
+                        "name": "i5-1334U",
+                        "price": 769
+                    }
+                ]
+            },
+            {
+                "id": "memory",
+                "title": "Memory",
+                "options": [
+                    {
+                        "name": "DDR5-5600 - 8GB (1 x 8GB) ",
+                        "price": 45
+                    },
+                    {
+                        "name": "DDR5-5600 - 16GB (1 x 16GB)",
+                        "price": 90
+                    },
+                    {
+                        "name": "DDR5-5600 - 32GB (1 x 32GB)",
+                        "price": 180
+                    },
+                    {
+                        "name": "DDR5-5600 - 48GB (1 x 48GB)",
+                        "price": 270
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "storage",
+                "title": "Storage",
+                "options": [
+                    {
+                        "name": "WD_BLACK™ SN770M NVMe™ - M.2 2230 - 500GB",
+                        "price": 109
+                    },
+                    {
+                        "name": "WD_BLACK™ SN770M NVMe™ - M.2 2230 - 1TB",
+                        "price": 179
+                    },
+                    {
+                        "name": "WD_BLACK™ SN770M NVMe™ - M.2 2230 - 2TB",
+                        "price": 299
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "operating-system",
+                "title": "Operating System",
+                "options": [
+                    {
+                        "name": "Windows 11 Home (Download)",
+                        "price": 145
+                    },
+                    {
+                        "name": "Windows 11 Pro (Download)",
+                        "price": 259
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "keyboard",
+                "title": "Keyboard",
+                "options": [
+                    {
+                        "name": "Swedish/Finnish - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "International English - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "British English - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "US English - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "US English - Lavender",
+                        "price": 0
+                    },
+                    {
+                        "name": "French Canadian - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Spain) - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Latin America) - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "French - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "German - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "Italian - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "Belgian - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "Korean - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "Traditional Chinese (Cangjie & Zhuyin) - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "Danish - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "Hungarian - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "Slovenian - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "Czech/Slovak - Gray",
+                        "price": 0
+                    },
+                    {
+                        "name": "Portuguese - Gray",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "power-adapter",
+                "title": "Power Adapter",
+                "options": [
+                    {
+                        "name": "Power Adapter - 60W - EU",
+                        "price": 49
+                    },
+                    {
+                        "name": "Power Adapter - 60W - UK",
+                        "price": 49
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "expansion-cards",
+                "title": "Expansion Cards",
+                "options": []
+            }
+        ]
+    },
+    {
+        "id": "laptop13-amd-ai300",
+        "choices": [
+            {
+                "id": "processor",
+                "title": "System",
+                "options": [
+                    {
+                        "name": "Available for this configuration: Extended Pro - DE",
+                        "price": 2459
+                    }
+                ]
+            },
+            {
+                "id": "expansion-cards",
+                "title": "Expansion Cards",
+                "options": []
+            }
+        ]
+    },
+    {
+        "id": "laptop-13-gen-amd",
+        "choices": [
+            {
+                "id": "processor",
+                "title": "System",
+                "options": [
+                    {
+                        "name": "Base",
+                        "price": 1079
+                    },
+                    {
+                        "name": "Performance",
+                        "price": 1539
+                    },
+                    {
+                        "name": "Professional",
+                        "price": 1749
+                    }
+                ]
+            },
+            {
+                "id": "expansion-cards",
+                "title": "Expansion Cards",
+                "options": []
+            }
+        ]
+    },
+    {
+        "id": "laptop13-intel-ultra-1",
+        "choices": [
+            {
+                "id": "processor",
+                "title": "System",
+                "options": [
+                    {
+                        "name": "Base",
+                        "price": 1209
+                    },
+                    {
+                        "name": "Performance",
+                        "price": 1669
+                    },
+                    {
+                        "name": "Extended Productivity",
+                        "price": 1419
+                    },
+                    {
+                        "name": "Extended Performance",
+                        "price": 1809
+                    },
+                    {
+                        "name": "Extended Pro",
+                        "price": 2209
+                    }
+                ]
+            },
+            {
+                "id": "expansion-cards",
+                "title": "Expansion Cards",
+                "options": []
+            }
+        ]
+    },
+    {
+        "id": "laptop-13-gen-intel",
+        "choices": [
+            {
+                "id": "processor",
+                "title": "System",
+                "options": [
+                    {
+                        "name": "Base",
+                        "price": 1079
+                    },
+                    {
+                        "name": "Performance",
+                        "price": 1399
+                    },
+                    {
+                        "name": "Professional",
+                        "price": 1889
+                    }
+                ]
+            },
+            {
+                "id": "expansion-cards",
+                "title": "Expansion Cards",
+                "options": []
+            }
+        ]
+    },
+    {
+        "id": "laptop13-diy-amd-ai300",
+        "choices": [
+            {
+                "id": "processor",
+                "title": "System",
+                "options": [
+                    {
+                        "name": "Ryzen™ AI 5 340",
+                        "price": 1089
+                    },
+                    {
+                        "name": "Ryzen™ AI 7 350",
+                        "price": 1489
+                    },
+                    {
+                        "name": "Ryzen™ AI 9 HX 370",
+                        "price": 1969
+                    }
+                ]
+            },
+            {
+                "id": "display",
+                "title": "Display",
+                "options": [
+                    {
+                        "name": "2.2K Display",
+                        "price": 0
+                    },
+                    {
+                        "name": "2.8K Display",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "memory",
+                "title": "Memory",
+                "options": [
+                    {
+                        "name": "DDR5-5600 - 8GB (1 x 8GB) ",
+                        "price": 45
+                    },
+                    {
+                        "name": "DDR5-5600 - 16GB (2 x 8GB)",
+                        "price": 90
+                    },
+                    {
+                        "name": "DDR5-5600 - 16GB (1 x 16GB)",
+                        "price": 90
+                    },
+                    {
+                        "name": "DDR5-5600 - 32GB (2 x 16GB)",
+                        "price": 180
+                    },
+                    {
+                        "name": "DDR5-5600 - 32GB (1 x 32GB)",
+                        "price": 180
+                    },
+                    {
+                        "name": "DDR5-5600 - 64GB (2 x 32GB) ",
+                        "price": 360
+                    },
+                    {
+                        "name": "DDR5-5600 - 48GB (1 x 48GB)",
+                        "price": 270
+                    },
+                    {
+                        "name": "DDR5-5600 - 96GB (2 x 48GB)",
+                        "price": 540
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "storage",
+                "title": "Storage",
+                "options": [
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 500GB",
+                        "price": 79
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 1TB",
+                        "price": 115
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 2TB",
+                        "price": 229
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 4TB",
+                        "price": 379
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 1TB",
+                        "price": 139
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 2TB",
+                        "price": 269
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 4TB",
+                        "price": 390
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 8TB",
+                        "price": 815
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "operating-system",
+                "title": "Operating System",
+                "options": [
+                    {
+                        "name": "Windows 11 Home (Download)",
+                        "price": 145
+                    },
+                    {
+                        "name": "Windows 11 Pro (Download)",
+                        "price": 259
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "keyboard",
+                "title": "Keyboard",
+                "options": [
+                    {
+                        "name": "Swedish/Finnish (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "US English (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "International English (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Blank ANSI (2nd Gen)",
+                        "price": 11
+                    },
+                    {
+                        "name": "Blank ISO (2nd Gen)",
+                        "price": 11
+                    },
+                    {
+                        "name": "Clear ANSI (2nd Gen)",
+                        "price": 11
+                    },
+                    {
+                        "name": "Clear ISO (2nd Gen)",
+                        "price": 11
+                    },
+                    {
+                        "name": "British English (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Belgian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Czech/Slovak (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Danish (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "French (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "French Canadian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "German (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Hungarian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Italian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Korean (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Portuguese (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Slovenian/Croatian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Latin American) (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Spain) (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Traditional Chinese (2nd Gen)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "bezel",
+                "title": "Bezel",
+                "options": [
+                    {
+                        "name": "Framework Laptop 13 Bezel - Black",
+                        "price": 0
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Orange",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Lavender",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Green",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Gray",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Red",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Translucent",
+                        "price": 0
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Translucent Purple",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Translucent Green",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Translucent Black",
+                        "price": 10
+                    }
+                ]
+            },
+            {
+                "id": "power-adapter",
+                "title": "Power Adapter",
+                "options": [
+                    {
+                        "name": "Power Adapter - 60W - EU",
+                        "price": 49
+                    },
+                    {
+                        "name": "Power Adapter - 60W - UK",
+                        "price": 49
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "expansion-cards",
+                "title": "Expansion Cards",
+                "options": []
+            }
+        ]
+    },
+    {
+        "id": "laptop-diy-13-gen-amd",
+        "choices": [
+            {
+                "id": "processor",
+                "title": "System",
+                "options": [
+                    {
+                        "name": "7640U",
+                        "price": 939
+                    },
+                    {
+                        "name": "7640U - 2.8K Display",
+                        "price": 1079
+                    }
+                ]
+            },
+            {
+                "id": "memory",
+                "title": "Memory",
+                "options": [
+                    {
+                        "name": "DDR5-5600 - 8GB (1 x 8GB) ",
+                        "price": 45
+                    },
+                    {
+                        "name": "DDR5-5600 - 16GB (2 x 8GB)",
+                        "price": 90
+                    },
+                    {
+                        "name": "DDR5-5600 - 16GB (1 x 16GB)",
+                        "price": 90
+                    },
+                    {
+                        "name": "DDR5-5600 - 32GB (2 x 16GB)",
+                        "price": 180
+                    },
+                    {
+                        "name": "DDR5-5600 - 32GB (1 x 32GB)",
+                        "price": 180
+                    },
+                    {
+                        "name": "DDR5-5600 - 64GB (2 x 32GB) ",
+                        "price": 360
+                    },
+                    {
+                        "name": "DDR5-5600 - 48GB (1 x 48GB)",
+                        "price": 270
+                    },
+                    {
+                        "name": "DDR5-5600 - 96GB (2 x 48GB)",
+                        "price": 540
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "storage",
+                "title": "Storage",
+                "options": [
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 500GB",
+                        "price": 79
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 1TB",
+                        "price": 115
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 1TB",
+                        "price": 139
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 2TB",
+                        "price": 229
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 2TB",
+                        "price": 269
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 4TB",
+                        "price": 379
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 4TB",
+                        "price": 390
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 8TB",
+                        "price": 815
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "operating-system",
+                "title": "Operating System",
+                "options": [
+                    {
+                        "name": "Windows 11 Home (Download)",
+                        "price": 145
+                    },
+                    {
+                        "name": "Windows 11 Pro (Download)",
+                        "price": 259
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "keyboard",
+                "title": "Keyboard",
+                "options": [
+                    {
+                        "name": "Swedish/Finnish (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "International English - Linux (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "US English (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "International English (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Blank ANSI (1st Gen)",
+                        "price": 10
+                    },
+                    {
+                        "name": "Blank ISO (1st Gen)",
+                        "price": 10
+                    },
+                    {
+                        "name": "Clear ANSI (1st Gen)",
+                        "price": 10
+                    },
+                    {
+                        "name": "Clear ISO (1st Gen)",
+                        "price": 10
+                    },
+                    {
+                        "name": "British English (2nd Gen)",
+                        "price": 20
+                    },
+                    {
+                        "name": "Belgian (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Czech/Slovak (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Danish (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "French (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "French Canadian (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "German (2nd Gen)",
+                        "price": 20
+                    },
+                    {
+                        "name": "Hungarian (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Italian (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Japanese ",
+                        "price": 0
+                    },
+                    {
+                        "name": "Korean (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Portuguese (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Latin American) (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Slovenian/Croatian (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Spain) (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Traditional Chinese (Cangjie & Zhuyin) (1st Gen)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "bezel",
+                "title": "Bezel",
+                "options": [
+                    {
+                        "name": "Framework Laptop 13 Bezel - Black",
+                        "price": 0
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Gray",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Orange",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Green",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Lavender",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Red",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Translucent",
+                        "price": 0
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Translucent Purple",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Translucent Green",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Translucent Black",
+                        "price": 10
+                    }
+                ]
+            },
+            {
+                "id": "power-adapter",
+                "title": "Power Adapter",
+                "options": [
+                    {
+                        "name": "Power Adapter - 60W - EU",
+                        "price": 49
+                    },
+                    {
+                        "name": "Power Adapter - 60W - UK",
+                        "price": 49
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "expansion-cards",
+                "title": "Expansion Cards",
+                "options": []
+            }
+        ]
+    },
+    {
+        "id": "laptop13-diy-intel-ultra-1",
+        "choices": [
+            {
+                "id": "processor",
+                "title": "System",
+                "options": [
+                    {
+                        "name": "Ultra 5 125H",
+                        "price": 969
+                    },
+                    {
+                        "name": "Ultra 7 155H",
+                        "price": 1339
+                    },
+                    {
+                        "name": "Ultra 7 165H",
+                        "price": 1789
+                    }
+                ]
+            },
+            {
+                "id": "display",
+                "title": "Display",
+                "options": [
+                    {
+                        "name": "2.2K Display",
+                        "price": 0
+                    },
+                    {
+                        "name": "2.8K Display",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "memory",
+                "title": "Memory",
+                "options": [
+                    {
+                        "name": "DDR5-5600 - 8GB (1 x 8GB) ",
+                        "price": 45
+                    },
+                    {
+                        "name": "DDR5-5600 - 16GB (2 x 8GB)",
+                        "price": 90
+                    },
+                    {
+                        "name": "DDR5-5600 - 16GB (1 x 16GB)",
+                        "price": 90
+                    },
+                    {
+                        "name": "DDR5-5600 - 32GB (2 x 16GB)",
+                        "price": 180
+                    },
+                    {
+                        "name": "DDR5-5600 - 32GB (1 x 32GB)",
+                        "price": 180
+                    },
+                    {
+                        "name": "DDR5-5600 - 64GB (2 x 32GB) ",
+                        "price": 360
+                    },
+                    {
+                        "name": "DDR5-5600 - 48GB (1 x 48GB)",
+                        "price": 270
+                    },
+                    {
+                        "name": "DDR5-5600 - 96GB (2 x 48GB)",
+                        "price": 540
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "storage",
+                "title": "Storage",
+                "options": [
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 500GB",
+                        "price": 79
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 1TB",
+                        "price": 115
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 1TB",
+                        "price": 139
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 2TB",
+                        "price": 229
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 2TB",
+                        "price": 269
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 4TB",
+                        "price": 379
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 4TB",
+                        "price": 390
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 8TB",
+                        "price": 815
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "operating-system",
+                "title": "Operating System",
+                "options": [
+                    {
+                        "name": "Windows 11 Home (Download)",
+                        "price": 145
+                    },
+                    {
+                        "name": "Windows 11 Pro (Download)",
+                        "price": 259
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "keyboard",
+                "title": "Keyboard",
+                "options": [
+                    {
+                        "name": "Swedish/Finnish (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "International English - Linux (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "US English (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "International English (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Blank ANSI (1st Gen)",
+                        "price": 10
+                    },
+                    {
+                        "name": "Blank ISO (1st Gen)",
+                        "price": 10
+                    },
+                    {
+                        "name": "Clear ANSI (1st Gen)",
+                        "price": 10
+                    },
+                    {
+                        "name": "Clear ISO (1st Gen)",
+                        "price": 10
+                    },
+                    {
+                        "name": "British English (2nd Gen)",
+                        "price": 20
+                    },
+                    {
+                        "name": "Belgian (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Czech/Slovak (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Danish (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "French (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "French Canadian (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "German (2nd Gen)",
+                        "price": 20
+                    },
+                    {
+                        "name": "Hungarian (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Italian (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Japanese ",
+                        "price": 0
+                    },
+                    {
+                        "name": "Korean (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Portuguese (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Slovenian/Croatian (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Latin American) (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Spain) (1st Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Traditional Chinese (Cangjie & Zhuyin) (1st Gen)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "bezel",
+                "title": "Bezel",
+                "options": [
+                    {
+                        "name": "Framework Laptop 13 Bezel - Black",
+                        "price": 0
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Gray",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Orange",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Green",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Lavender",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Red",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Translucent",
+                        "price": 0
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Translucent Purple",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Translucent Green",
+                        "price": 10
+                    },
+                    {
+                        "name": "Framework Laptop 13 Bezel - Translucent Black",
+                        "price": 10
+                    }
+                ]
+            },
+            {
+                "id": "power-adapter",
+                "title": "Power Adapter",
+                "options": [
+                    {
+                        "name": "Power Adapter - 60W - EU",
+                        "price": 49
+                    },
+                    {
+                        "name": "Power Adapter - 60W - UK",
+                        "price": 49
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "expansion-cards",
+                "title": "Expansion Cards",
+                "options": []
+            }
+        ]
+    },
+    {
+        "id": "laptop16-amd-ai300",
+        "choices": [
+            {
+                "id": "processor",
+                "title": "System",
+                "options": [
+                    {
+                        "name": "Performance",
+                        "price": 2059
+                    },
+                    {
+                        "name": "Performance Pro",
+                        "price": 2279
+                    },
+                    {
+                        "name": "Overkill",
+                        "price": 2899
+                    }
+                ]
+            },
+            {
+                "id": "keyboard",
+                "title": "Keyboard",
+                "options": [
+                    {
+                        "name": "Swedish/Finnish (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "US English (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "US English - Copilot (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "RGB US English (2nd Gen)",
+                        "price": 55
+                    },
+                    {
+                        "name": "RGB Clear ANSI (2nd Gen)",
+                        "price": 55
+                    },
+                    {
+                        "name": "Blank ISO (2nd Gen)",
+                        "price": 14
+                    },
+                    {
+                        "name": "Blank ANSI (2nd Gen)",
+                        "price": 14
+                    },
+                    {
+                        "name": "British English (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "International English (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Belgian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Czech/Slovak (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Danish (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "French (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "French Canadian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "German (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Hungarian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Italian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Korean (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Portuguese (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Slovenian/Croatian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Latin American) (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Spain) (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Traditional Chinese (Cangjie & Zhuyin) (2nd Gen)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "expansion-cards",
+                "title": "Expansion Cards",
+                "options": []
+            },
+            {
+                "id": "expansion-bay-module",
+                "title": "Expansion Bay Module",
+                "options": [
+                    {
+                        "name": "Expansion Bay Shell",
+                        "price": 0
+                    },
+                    {
+                        "name": "Graphics Module (NVIDIA® GeForce RTX™ 5070)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "input-modules",
+                "title": "Input Modules",
+                "options": []
+            }
+        ]
+    },
+    {
+        "id": "laptop16-amd-7040",
+        "choices": [
+            {
+                "id": "processor",
+                "title": "System",
+                "options": [
+                    {
+                        "name": "Performance",
+                        "price": 1829
+                    },
+                    {
+                        "name": "Performance Pro",
+                        "price": 1889
+                    },
+                    {
+                        "name": "Overkill",
+                        "price": 2229
+                    }
+                ]
+            },
+            {
+                "id": "keyboard",
+                "title": "Keyboard",
+                "options": [
+                    {
+                        "name": "US English",
+                        "price": 0
+                    },
+                    {
+                        "name": "RGB US English",
+                        "price": 55
+                    },
+                    {
+                        "name": "Belgian",
+                        "price": 0
+                    },
+                    {
+                        "name": "British English",
+                        "price": 0
+                    },
+                    {
+                        "name": "Czech/Slovak",
+                        "price": 0
+                    },
+                    {
+                        "name": "French",
+                        "price": 0
+                    },
+                    {
+                        "name": "French Canadian",
+                        "price": 0
+                    },
+                    {
+                        "name": "German",
+                        "price": 0
+                    },
+                    {
+                        "name": "International English - Linux",
+                        "price": 0
+                    },
+                    {
+                        "name": "International English",
+                        "price": 0
+                    },
+                    {
+                        "name": "Italian",
+                        "price": 0
+                    },
+                    {
+                        "name": "Korean",
+                        "price": 0
+                    },
+                    {
+                        "name": "Portuguese",
+                        "price": 0
+                    },
+                    {
+                        "name": "Slovenian/Croatian",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Spain)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Latin America)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Traditional Chinese (Cangjie & Zhuyin)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Blank ANSI",
+                        "price": 14
+                    },
+                    {
+                        "name": "Blank ISO",
+                        "price": 14
+                    },
+                    {
+                        "name": "RGB Clear ANSI",
+                        "price": 55
+                    }
+                ]
+            },
+            {
+                "id": "expansion-cards",
+                "title": "Expansion Cards",
+                "options": []
+            },
+            {
+                "id": "expansion-bay-module",
+                "title": "Expansion Bay Module",
+                "options": [
+                    {
+                        "name": "Expansion Bay Shell",
+                        "price": 0
+                    },
+                    {
+                        "name": "Graphics Module (AMD Radeon™ RX 7700S) (1st Gen)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "input-modules",
+                "title": "Input Modules",
+                "options": []
+            }
+        ]
+    },
+    {
+        "id": "laptop16-diy-amd-ai300",
+        "choices": [
+            {
+                "id": "processor",
+                "title": "System",
+                "options": [
+                    {
+                        "name": "Ryzen™ AI 7 350",
+                        "price": 1719
+                    },
+                    {
+                        "name": "Ryzen™ AI 9 HX 370",
+                        "price": 2059
+                    }
+                ]
+            },
+            {
+                "id": "memory",
+                "title": "Memory",
+                "options": [
+                    {
+                        "name": "DDR5-5600 - 8GB (1 x 8GB) ",
+                        "price": 45
+                    },
+                    {
+                        "name": "DDR5-5600 - 16GB (1 x 16GB)",
+                        "price": 90
+                    },
+                    {
+                        "name": "DDR5-5600 - 16GB (2 x 8GB)",
+                        "price": 90
+                    },
+                    {
+                        "name": "DDR5-5600 - 32GB (1 x 32GB)",
+                        "price": 180
+                    },
+                    {
+                        "name": "DDR5-5600 - 32GB (2 x 16GB)",
+                        "price": 180
+                    },
+                    {
+                        "name": "DDR5-5600 - 48GB (1 x 48GB)",
+                        "price": 270
+                    },
+                    {
+                        "name": "DDR5-5600 - 64GB (2 x 32GB) ",
+                        "price": 360
+                    },
+                    {
+                        "name": "DDR5-5600 - 96GB (2 x 48GB)",
+                        "price": 540
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "operating-system",
+                "title": "Operating System",
+                "options": [
+                    {
+                        "name": "Windows 11 Home (Download)",
+                        "price": 145
+                    },
+                    {
+                        "name": "Windows 11 Pro (Download)",
+                        "price": 259
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "keyboard",
+                "title": "Keyboard",
+                "options": [
+                    {
+                        "name": "Swedish/Finnish (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "US English (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "US English - Copilot (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "International English (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Blank ANSI (2nd Gen)",
+                        "price": 14
+                    },
+                    {
+                        "name": "Blank ISO (2nd Gen)",
+                        "price": 14
+                    },
+                    {
+                        "name": "RGB US English (2nd Gen)",
+                        "price": 55
+                    },
+                    {
+                        "name": "RGB Clear ANSI (2nd Gen)",
+                        "price": 55
+                    },
+                    {
+                        "name": "British English (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Belgian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Czech/Slovak (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Danish (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "French (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "French Canadian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "German (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Hungarian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Italian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Korean (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Portuguese (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Slovenian/Croatian (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Latin American) (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Spain) (2nd Gen)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Traditional Chinese (Cangjie & Zhuyin) (2nd Gen)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "bezel",
+                "title": "Bezel",
+                "options": [
+                    {
+                        "name": "Framework Laptop 16 Bezel - Black",
+                        "price": 0
+                    },
+                    {
+                        "name": "Framework Laptop 16 Bezel - Orange",
+                        "price": 24
+                    },
+                    {
+                        "name": "Framework Laptop 16 Bezel - Lavender",
+                        "price": 24
+                    }
+                ]
+            },
+            {
+                "id": "power-adapter",
+                "title": "Power Adapter",
+                "options": [
+                    {
+                        "name": "Power Adapter - 240W - EU/KR",
+                        "price": 120
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "expansion-cards",
+                "title": "Expansion Cards",
+                "options": []
+            },
+            {
+                "id": "expansion-bay-module",
+                "title": "Expansion Bay Module",
+                "options": [
+                    {
+                        "name": "Expansion Bay Shell",
+                        "price": 0
+                    },
+                    {
+                        "name": "Graphics Module (NVIDIA® GeForce RTX™ 5070)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Graphics Module (AMD Radeon™ RX 7700S) (2nd Gen)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "primary-storage",
+                "title": "Primary Storage",
+                "options": [
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 500GB",
+                        "price": 79
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 1TB",
+                        "price": 115
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 2TB",
+                        "price": 229
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 4TB",
+                        "price": 379
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 1TB",
+                        "price": 139
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 2TB",
+                        "price": 269
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 4TB",
+                        "price": 390
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 8TB",
+                        "price": 815
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "secondary-storage",
+                "title": "Secondary Storage",
+                "options": [
+                    {
+                        "name": "WD_BLACK™ SN770M NVMe™ - M.2 2230 - 500GB",
+                        "price": 109
+                    },
+                    {
+                        "name": "WD_BLACK™ SN770M NVMe™ - M.2 2230 - 1TB",
+                        "price": 179
+                    },
+                    {
+                        "name": "WD_BLACK™ SN770M NVMe™ - M.2 2230 - 2TB",
+                        "price": 299
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "input-modules",
+                "title": "Input Modules",
+                "options": []
+            }
+        ]
+    },
+    {
+        "id": "laptop16-diy-amd-7040",
+        "choices": [
+            {
+                "id": "processor",
+                "title": "System",
+                "options": [
+                    {
+                        "name": "Ryzen™ 7 7840HS",
+                        "price": 1489
+                    },
+                    {
+                        "name": "Ryzen™ 9 7940HS",
+                        "price": 1719
+                    }
+                ]
+            },
+            {
+                "id": "memory",
+                "title": "Memory",
+                "options": [
+                    {
+                        "name": "DDR5-5600 - 8GB (1 x 8GB) ",
+                        "price": 45
+                    },
+                    {
+                        "name": "DDR5-5600 - 16GB (2 x 8GB)",
+                        "price": 90
+                    },
+                    {
+                        "name": "DDR5-5600 - 16GB (1 x 16GB)",
+                        "price": 90
+                    },
+                    {
+                        "name": "DDR5-5600 - 32GB (2 x 16GB)",
+                        "price": 180
+                    },
+                    {
+                        "name": "DDR5-5600 - 32GB (1 x 32GB)",
+                        "price": 180
+                    },
+                    {
+                        "name": "DDR5-5600 - 64GB (2 x 32GB) ",
+                        "price": 360
+                    },
+                    {
+                        "name": "DDR5-5600 - 48GB (1 x 48GB)",
+                        "price": 270
+                    },
+                    {
+                        "name": "DDR5-5600 - 96GB (2 x 48GB)",
+                        "price": 540
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "operating-system",
+                "title": "Operating System",
+                "options": [
+                    {
+                        "name": "Windows 11 Home (Download)",
+                        "price": 145
+                    },
+                    {
+                        "name": "Windows 11 Pro (Download)",
+                        "price": 259
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "keyboard",
+                "title": "Keyboard",
+                "options": [
+                    {
+                        "name": "Swedish/Finnish",
+                        "price": 0
+                    },
+                    {
+                        "name": "International English - Linux",
+                        "price": 0
+                    },
+                    {
+                        "name": "US English",
+                        "price": 0
+                    },
+                    {
+                        "name": "RGB US English",
+                        "price": 55
+                    },
+                    {
+                        "name": "RGB Clear ANSI",
+                        "price": 55
+                    },
+                    {
+                        "name": "Blank ANSI",
+                        "price": 14
+                    },
+                    {
+                        "name": "Blank ISO",
+                        "price": 14
+                    },
+                    {
+                        "name": "British English",
+                        "price": 0
+                    },
+                    {
+                        "name": "International English",
+                        "price": 0
+                    },
+                    {
+                        "name": "Belgian",
+                        "price": 0
+                    },
+                    {
+                        "name": "Czech/Slovak",
+                        "price": 0
+                    },
+                    {
+                        "name": "Danish",
+                        "price": 0
+                    },
+                    {
+                        "name": "French",
+                        "price": 0
+                    },
+                    {
+                        "name": "French Canadian",
+                        "price": 0
+                    },
+                    {
+                        "name": "German",
+                        "price": 0
+                    },
+                    {
+                        "name": "Hungarian",
+                        "price": 0
+                    },
+                    {
+                        "name": "Italian",
+                        "price": 0
+                    },
+                    {
+                        "name": "Korean",
+                        "price": 0
+                    },
+                    {
+                        "name": "Portuguese",
+                        "price": 0
+                    },
+                    {
+                        "name": "Slovenian/Croatian",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Latin America)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Spanish (Spain)",
+                        "price": 0
+                    },
+                    {
+                        "name": "Traditional Chinese (Cangjie & Zhuyin)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "bezel",
+                "title": "Bezel",
+                "options": [
+                    {
+                        "name": "Framework Laptop 16 Bezel - Black",
+                        "price": 0
+                    },
+                    {
+                        "name": "Framework Laptop 16 Bezel - Orange",
+                        "price": 24
+                    },
+                    {
+                        "name": "Framework Laptop 16 Bezel - Lavender",
+                        "price": 24
+                    }
+                ]
+            },
+            {
+                "id": "power-adapter",
+                "title": "Power Adapter",
+                "options": [
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    },
+                    {
+                        "name": "180W Power Adapter",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "expansion-cards",
+                "title": "Expansion Cards",
+                "options": []
+            },
+            {
+                "id": "expansion-bay-module",
+                "title": "Expansion Bay Module",
+                "options": [
+                    {
+                        "name": "Expansion Bay Shell",
+                        "price": 0
+                    },
+                    {
+                        "name": "Graphics Module (AMD Radeon™ RX 7700S) (1st Gen)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "primary-storage",
+                "title": "Primary Storage",
+                "options": [
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 500GB",
+                        "price": 79
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 1TB",
+                        "price": 115
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 1TB",
+                        "price": 139
+                    },
+                    {
+                        "name": "WD_BLACK™ SN7100 NVMe™ - M.2 2280 - 2TB",
+                        "price": 229
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 2TB",
+                        "price": 269
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 4TB",
+                        "price": 390
+                    },
+                    {
+                        "name": "WD_BLACK™ SN850X NVMe™ - M.2 2280 - 8TB",
+                        "price": 815
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "secondary-storage",
+                "title": "Secondary Storage",
+                "options": [
+                    {
+                        "name": "WD_BLACK™ SN770M NVMe™ - M.2 2230 - 500GB",
+                        "price": 109
+                    },
+                    {
+                        "name": "WD_BLACK™ SN770M NVMe™ - M.2 2230 - 1TB",
+                        "price": 179
+                    },
+                    {
+                        "name": "WD_BLACK™ SN770M NVMe™ - M.2 2230 - 2TB",
+                        "price": 299
+                    },
+                    {
+                        "name": "None (bring your own)",
+                        "price": 0
+                    }
+                ]
+            },
+            {
+                "id": "input-modules",
+                "title": "Input Modules",
+                "options": []
+            }
+        ]
+    }
 ]

@@ -30,8 +30,9 @@ const paths = [
 
     const browser = await firefox.launch()
     const context = await browser.newContext({
-        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0'
+        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0',
     });
+    context.setDefaultNavigationTimeout(60_000)
     console.log("Initted Firefox")
     const scrapedData = await Promise.all(paths.map(productId => scrapeProduct(productId, context)))
 
@@ -70,16 +71,19 @@ async function scrapeProduct(id: string, context: BrowserContext) {
     ]
 
     const sections = (await Promise.all(sectionIds.map(async id => ({ locator: page.getByTestId(id), id: id, isVisible: await page.getByTestId(id).isVisible() })))).flatMap(({ locator, isVisible, id }) => isVisible ? { locator: locator, id: id } : [])
-    return await Promise.all(sections.map(async ({ locator, id }) => {
-        return {
-            id: id,
-            title: await locator.locator("b").innerHTML(),
-            options: await Promise.all((await locator.locator(".accordion-section-content li[data-delta-price]").all()).map(async (opt: Locator) => {
-                return {
-                    name: (await opt.getAttribute("data-presentation-html")).replace(/(\&nbsp\;)+.*/,""),
-                    price: (await opt.locator('*[data-js-target="option-price"]').allTextContents()).map(t => t.trim())
-                }
-            }))
-        }
-    }))
+    return {
+        id: id,
+        choices: await Promise.all(sections.map(async ({ locator, id }) => {
+            return {
+                id: id,
+                title: await locator.locator("b").innerHTML(),
+                options: await Promise.all((await locator.locator(".accordion-section-content li[data-delta-price]").all()).map(async (opt: Locator) => {
+                    return {
+                        name: (await opt.getAttribute("data-presentation-html")).replace(/(\&nbsp\;)+.*/, ""),
+                        price: Number((await opt.locator('*[data-js-target="option-price"]').allTextContents()).map(t => t.trim().replace(/[^0-9]/g, ""))[0]) || 0
+                    }
+                }))
+            }
+        }))
+    }
 }
