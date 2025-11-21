@@ -26,7 +26,14 @@
             </div>
             <div id="collapseBudget" class="accordion-collapse collapse" data-bs-parent="#form">
               <div class="accordion-body">
-                Think about your budget range
+                <label for="range-budget" class="form-label">What's your budget</label>
+                <input type="range" class="form-range" id="range-budget" min="500" max="4000" step="50">
+                <output for="range-budget" id="range-budget-value" aria-hidden="true">40$</output>
+                <hr>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-primary">Previous</button>
+                  <button type="button" class="btn btn-primary">Next</button>
+                </div>
               </div>
             </div>
           </div>
@@ -39,7 +46,34 @@
             </div>
             <div id="collapseMemory" class="accordion-collapse collapse" data-bs-parent="#form">
               <div class="accordion-body">
-                How much ram do you really need?
+                <label for="range-mem" class="form-label">Select your desired memory amount</label><br>
+                <input type="range" class="form-range" id="range-mem" max="96" min="8" step="8">
+                <output for="range-mem" id="range-mem-value" aria-hidden="true">80GB</output>
+                <hr>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-primary">Previous</button>
+                  <button type="button" class="btn btn-primary">Next</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStorage"
+                aria-expanded="true" aria-controls="collapseStorage">
+                3. Storage
+              </button>
+            </div>
+            <div id="collapseStorage" class="accordion-collapse collapse" data-bs-parent="#form">
+              <div class="accordion-body">
+                <label for="range-mem" class="form-label">Up next: storage</label><br>
+                <input type="range" class="form-range" id="range-mem" max="" min="8" step="8">
+                <output for="range-mem" id="range-mem-value" aria-hidden="true">256GB</output>
+                <hr>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-primary">Previous</button>
+                  <button type="button" class="btn btn-primary">Next</button>
+                </div>
               </div>
             </div>
           </div>
