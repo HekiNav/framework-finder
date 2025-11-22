@@ -9,107 +9,113 @@
 </head>
 
 <body>
-  <div id="app" class="text-center bg-primary">
+  <div id="app" class="text-center bg-secondary">
     <div class="row w-100">
       <div class="col"></div>
       <div class="col col-lg-6 col-sm-6 my-5 p-3 bg-white rounded" id="app">
         <h1>Framework Finder</h1>
         <p>Find the perfect framework laptop for you</p>
-        <button class="btn btn-primary btn-lg mb-5">Begin</button>
+        <button class="btn btn-primary btn-lg mb-2 opens-section" data-section="budget">Begin</button>
         <div id="form" class="accordion">
           <div class="accordion-item">
             <div class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBudget"
-                aria-expanded="true" aria-controls="collapseBudget">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-budget"
+                aria-expanded="true" aria-controls="collapse-budget">
                 1. Budget
               </button>
             </div>
-            <div id="collapseBudget" class="accordion-collapse collapse" data-bs-parent="#form">
+            <div id="collapse-budget" class="accordion-collapse collapse" data-bs-parent="#form">
               <div class="accordion-body">
                 <label for="range-budget" class="form-label">What's your budget</label>
-                <input type="range" class="form-range" id="range-budget" min="500" max="4000" step="50">
+                <input type="range" class="form-range range-output" data-type="currency" id="range-budget" min="500"
+                  max="4000" step="50">
                 <output for="range-budget" id="range-budget-value" aria-hidden="true">40$</output>
                 <hr>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary">Next</button>
+                  <button type="button" class="btn btn-secondary opens-section" data-section="memory">Next</button>
                 </div>
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <div class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMemory"
-                aria-expanded="true" aria-controls="collapseMemory">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-memory"
+                aria-expanded="true" aria-controls="collapse-memory">
                 2. Memory
               </button>
             </div>
-            <div id="collapseMemory" class="accordion-collapse collapse" data-bs-parent="#form">
+            <div id="collapse-memory" class="accordion-collapse collapse" data-bs-parent="#form">
               <div class="accordion-body">
                 <label for="range-mem" class="form-label">Select your desired memory amount</label><br>
-                <input type="range" class="form-range" id="range-mem" max="96" min="8" step="8">
+                <input type="range" class="form-range range-output" data-type="memory" id="range-mem" max="96" min="8"
+                  step="8">
                 <output for="range-mem" id="range-mem-value" aria-hidden="true">80GB</output>
                 <hr>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary">Previous</button>
-                  <button type="button" class="btn btn-primary">Next</button>
+                  <button type="button" class="btn btn-secondary opens-section" data-section="budget">Previous</button>
+                  <button type="button" class="btn btn-secondary opens-section" data-section="storage">Next</button>
                 </div>
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <div class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStorage"
-                aria-expanded="true" aria-controls="collapseStorage">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse-storage" aria-expanded="true" aria-controls="collapse-storage">
                 3. Storage
               </button>
             </div>
-            <div id="collapseStorage" class="accordion-collapse collapse" data-bs-parent="#form">
+            <div id="collapse-storage" class="accordion-collapse collapse" data-bs-parent="#form">
               <div class="accordion-body">
-                <label for="range-mem" class="form-label">Up next: storage</label><br>
-                <input type="range" class="form-range" id="range-mem" max="" min="8" step="8">
-                <output for="range-mem" id="range-mem-value" aria-hidden="true">256GB</output>
+                <label for="range-disk" class="form-label">Up next: storage</label><br>
+                <input type="range" class="form-range range-output" data-type="storage" id="range-disk" max="4" min="0"
+                  step="1">
+                <output for="range-disk" id="range-disk-value" aria-hidden="true">256GB</output>
                 <hr>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary">Previous</button>
-                  <button type="button" class="btn btn-primary">Next</button>
+                  <button type="button" class="btn btn-secondary opens-section" data-section="memory">Previous</button>
+                  <button type="button" class="btn btn-secondary opens-section" data-section="display">Next</button>
                 </div>
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <div class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDisplay"
-                aria-expanded="true" aria-controls="collapseDisplay">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse-display" aria-expanded="true" aria-controls="collapse-display">
                 4. Display
               </button>
             </div>
-            <div id="collapseDisplay" class="accordion-collapse collapse" data-bs-parent="#form">
+            <div id="collapse-display" class="accordion-collapse collapse" data-bs-parent="#form">
               <div class="accordion-body">
                 Do you prefer an upgraded display
                 <br class="my-2"> <!-- very cursed ik -->
                 <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
-                  <label class="btn btn-outline-danger" for="btnradio1">No</label>
+                  <input type="radio" class="btn-check" name="btn-radio-display" id="btn-radio-display-no"
+                    autocomplete="off">
+                  <label class="btn btn-outline-danger" for="btn-radio-display-no">No</label>
 
-                  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" checked>
-                  <label class="btn btn-outline-secondary" for="btnradio2">Neutral</label>
+                  <input type="radio" class="btn-check" name="btn-radio-display" id="btn-radio-display-neutral"
+                    autocomplete="off" checked>
+                  <label class="btn btn-outline-dark" for="btn-radio-display-neutral">Neutral</label>
 
-                  <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-                  <label class="btn btn-outline-success" for="btnradio3">yes</label>
+                  <input type="radio" class="btn-check" name="btn-radio-display" id="btn-radio-display-yes"
+                    autocomplete="off">
+                  <label class="btn btn-outline-success" for="btn-radio-display-yes">yes</label>
                 </div>
                 <hr>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary">Previous</button>
-                  <button type="button" class="btn btn-primary">Next</button>
+                  <button type="button" class="btn btn-secondary opens-section" data-section="storage">Previous</button>
+                  <button type="button" class="btn btn-secondary">Next</button>
                 </div>
               </div>
             </div>
           </div>
+          <div style="height: 20em;"></div>
         </div>
       </div>
       <div class="col"></div>
     </div>
-
   </div>
   <script type="module" src="/src/main.ts"></script>
 </body>
