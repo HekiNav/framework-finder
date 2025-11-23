@@ -2,16 +2,177 @@ import './scss/main.scss'
 
 import './style.css'
 
-import * as bootstrap from 'bootstrap'
+import * as _bootstrap from 'bootstrap'
 
-document.querySelectorAll(".opens-section").forEach(el => {
-    el.addEventListener("click", () => openSection(el.getAttribute("data-section")!))
+const BASE_URL = import.meta.env.BASE_URL
+
+const params: Record<string, number | boolean | null> = {
+    budget: null,
+    storage: null,
+    memory: null,
+    display: null
+}
+
+const baseMultipliers = {
+    budget: {
+        baseMult: 0.125,
+        underMult: 1,
+        overMult: 0
+    },
+    storage: {
+        baseMult: 8,
+        underMult: 1,
+        overMult: 0.5
+    },
+    memory: {
+        baseMult: 0.5,
+        underMult: 1,
+        overMult: 0.5
+    }
+}
+
+const storageSizes = [
+    "None",
+    "500GB",
+    "1TB",
+    "2TB",
+    "4TB",
+    "8TB"
+]
+
+const typeFunctions: Record<string, Function> = {
+    budget: (n: number) => `${n}€`,
+    storage: (n: number) => storageSizes[n],
+    memory: (n: number) => n == 0 ? "None" : `${n}GB`,
+    number: (n: number) => `${n}`
+}
+generateOptions().then(options => {
+    window.scrollTo({
+        top: 0
+    })
+
+    console.log(options)
+    document.querySelectorAll(".opens-section").forEach(el => {
+        el.addEventListener("click", () => openSection(el.getAttribute("data-section")!))
+    })
+
+
+    document.querySelectorAll(".range-output").forEach((el) => {
+        const typeFunc = typeFunctions[el.getAttribute("data-type") || "number"]
+        const output = document.querySelector(`output[for=${el.id}]`)!
+        el.addEventListener("mousemove", () => {
+            updateParam(false)
+        })
+        el.addEventListener("change", () => {
+            updateParam()
+        })
+        updateParam()
+
+        function updateParam(fullUpdate = true) {
+            output.innerHTML = typeFunc((el as HTMLInputElement).value)
+            if (!fullUpdate) return
+            const type = el.getAttribute("data-type")!
+            switch (type) {
+                case "display":
+                    params.display = null
+                    break;
+                default:
+                    params[type] = Number((el as HTMLInputElement).value)
+                    break;
+            }
+            generateSuggestions(options)
+        }
+    })
 })
-document.querySelectorAll(".range-output").forEach((el) => el.addEventListener("mousemove", () => {
-    document.querySelector(`output[for=${el.id}]`)!.innerHTML = (el as HTMLInputElement).value
-}))
 
+interface Product {
+    id: string,
+    title: string,
+    choices: Choice[]
+}
+interface Choice {
+    id: string,
+    title: string,
+    options: Option[]
+}
+interface Option {
+    name: string,
+    price: number,
+    value: number | boolean
+}
+interface ProductOption {
+    id: string,
+    title: string,
+    price: number,
+    choices: ProductChoices
+}
+interface ProductChoices {
+    processor?: Option,
+    display?: Option,
+    memory?: Option,
+    storage?: Option
+}
+async function generateOptions() {
+    const
+        parameters = [
+            "processor",
+            "display",
+            "memory",
+            "storage",
+        ],
+        response = await fetch(BASE_URL + "fw-data.json"),
+        products = await response.json(),
+        options = products.reduce((prev: Array<ProductOption>, curr: Product) => {
+            if (!curr.id.includes("diy")) return prev
+            const products = [{ ...curr, choices: {}, price: 0 }]
+            curr.choices.forEach(c => {
+                if (!parameters.some(id => id == c.id)) return
+                const pr = products.splice(0, products.length)
+                c.options.forEach(o => {
+                    pr.forEach(p => {
+                        products.push({
+                            ...p,
+                            price: p.price + o.price,
+                            choices: { ...p.choices, [c.id]: o }
+                        })
+                    })
+                })
+            })
+            return [...prev, ...products]
+        }, [])
+    return options
+}
 
+function generateSuggestions(options: ProductOption[]) {
+    const suggestions = options.map(o => ({ ...o, score: 0 }))
+    Object.entries(params).forEach(([id, value]) => {
+        console.log(id)
+        if (value == null) return
+        else suggestions.forEach(s => {
+            s.score += Object.keys(s.choices).some(k => k == id) || id == "budget" ? scoreFunction(id)(s, value) : 0
+        })
+    })
+    console.log(suggestions.sort((a, b) => b.score - a.score)[0])
+}
+
+function scoreFunction(paramId: string): Function {
+    switch (paramId) {
+        case "display":
+            return (prod: ProductOption, param: boolean) => prod.choices.display?.value == param ? 20 : 0
+        case "memory":
+        case "storage":
+            return (prod: ProductOption, param: number) => {
+                const 
+                    diff = Number(prod.choices[paramId]?.value) - param,
+                    {underMult, overMult, baseMult} = baseMultipliers[paramId]
+                return diff * baseMult * (diff < 0 ? underMult : overMult)
+            }
+        case "budget":
+            return (prod: ProductOption, param: number) => (param - Number(prod.price)) * baseMultipliers.budget.baseMult * (param - Number(prod.price) < 0 ? baseMultipliers.budget.underMult : baseMultipliers.budget.overMult)
+        default:
+            return () => 0
+    }
+}
 
 function openSection(sectionId: string) {
     const sectionSelector = `#collapse-${sectionId}`

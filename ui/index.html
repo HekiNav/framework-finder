@@ -27,7 +27,7 @@
             <div id="collapse-budget" class="accordion-collapse collapse" data-bs-parent="#form">
               <div class="accordion-body">
                 <label for="range-budget" class="form-label">What's your budget</label>
-                <input type="range" class="form-range range-output" data-type="currency" id="range-budget" min="500"
+                <input type="range" class="form-range range-output" data-type="budget" id="range-budget" min="500"
                   max="4000" step="50">
                 <output for="range-budget" id="range-budget-value" aria-hidden="true">40$</output>
                 <hr>
@@ -47,7 +47,7 @@
             <div id="collapse-memory" class="accordion-collapse collapse" data-bs-parent="#form">
               <div class="accordion-body">
                 <label for="range-mem" class="form-label">Select your desired memory amount</label><br>
-                <input type="range" class="form-range range-output" data-type="memory" id="range-mem" max="96" min="8"
+                <input type="range" class="form-range range-output" data-type="memory" id="range-mem" max="96" min="0"
                   step="8">
                 <output for="range-mem" id="range-mem-value" aria-hidden="true">80GB</output>
                 <hr>
@@ -68,7 +68,7 @@
             <div id="collapse-storage" class="accordion-collapse collapse" data-bs-parent="#form">
               <div class="accordion-body">
                 <label for="range-disk" class="form-label">Up next: storage</label><br>
-                <input type="range" class="form-range range-output" data-type="storage" id="range-disk" max="4" min="0"
+                <input type="range" class="form-range range-output" data-type="storage" id="range-disk" max="5" min="0"
                   step="1">
                 <output for="range-disk" id="range-disk-value" aria-hidden="true">256GB</output>
                 <hr>
