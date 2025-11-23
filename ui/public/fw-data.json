@@ -98,11 +98,13 @@
                 "options": [
                     {
                         "name": "i3-1315U",
-                        "price": 599
+                        "price": 599,
+                        "value": 11248
                     },
                     {
                         "name": "i5-1334U",
-                        "price": 769
+                        "price": 769,
+                        "value": 13257
                     }
                 ]
             },
@@ -414,15 +416,18 @@
                 "options": [
                     {
                         "name": "Ryzen™ AI 5 340",
-                        "price": 1089
+                        "price": 1089,
+                        "value": 19699
                     },
                     {
                         "name": "Ryzen™ AI 7 350",
-                        "price": 1489
+                        "price": 1489,
+                        "value": 24887
                     },
                     {
                         "name": "Ryzen™ AI 9 HX 370",
-                        "price": 1969
+                        "price": 1969,
+                        "value": 35120
                     }
                 ]
             },
@@ -712,7 +717,8 @@
                 "options": [
                     {
                         "name": "7640U",
-                        "price": 939
+                        "price": 939,
+                        "value": 20856
                     }
                 ]
             },
@@ -1008,15 +1014,18 @@
                 "options": [
                     {
                         "name": "Ultra 5 125H",
-                        "price": 969
+                        "price": 969,
+                        "value": 20781
                     },
                     {
                         "name": "Ultra 7 155H",
-                        "price": 1339
+                        "price": 1339,
+                        "value": 24718
                     },
                     {
                         "name": "Ultra 7 165H",
-                        "price": 1789
+                        "price": 1789,
+                        "value": 25883
                     }
                 ]
             },
@@ -1592,11 +1601,13 @@
                 "options": [
                     {
                         "name": "Ryzen™ AI 7 350",
-                        "price": 1719
+                        "price": 1719,
+                        "value": 24887
                     },
                     {
                         "name": "Ryzen™ AI 9 HX 370",
-                        "price": 2059
+                        "price": 2059,
+                        "value": 35120
                     }
                 ]
             },
@@ -1865,11 +1876,13 @@
                 "options": [
                     {
                         "name": "Ryzen™ 7 7840HS",
-                        "price": 1489
+                        "price": 1489,
+                        "value": 28558
                     },
                     {
                         "name": "Ryzen™ 9 7940HS",
-                        "price": 1719
+                        "price": 1719,
+                        "value": 29980
                     }
                 ]
             },

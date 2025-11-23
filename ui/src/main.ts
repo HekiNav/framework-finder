@@ -28,6 +28,11 @@ const baseMultipliers = {
         baseMult: 0.5,
         underMult: 1,
         overMult: 0.5
+    },
+    processor: {
+        baseMult: 0.005,
+        underMult: 1,
+        overMult: 1
     }
 }
 
@@ -144,28 +149,36 @@ async function generateOptions() {
 }
 
 function generateSuggestions(options: ProductOption[]) {
-    const suggestions = options.map(o => ({ ...o, score: 0 }))
-    Object.entries(params).forEach(([id, value]) => {
-        console.log(id)
+    const suggestions = options.map(o => ({ ...o, score: 0 }));
+    [...Object.entries(params), ["processor", ""]].forEach(([id, value]) => {
         if (value == null) return
         else suggestions.forEach(s => {
-            s.score += Object.keys(s.choices).some(k => k == id) || id == "budget" ? scoreFunction(id)(s, value) : 0
+            const whitelist = ["budget"]
+            s.score += Object.keys(s.choices).some(k => k == id) || whitelist.some(item => item == id) ? scoreFunction(id)(s, value) : 0
         })
     })
     console.log(suggestions.sort((a, b) => b.score - a.score)[0])
 }
 
 function scoreFunction(paramId: string): Function {
+    console.log(paramId)
     switch (paramId) {
         case "display":
             return (prod: ProductOption, param: boolean) => prod.choices.display?.value == param ? 20 : 0
         case "memory":
         case "storage":
             return (prod: ProductOption, param: number) => {
-                const 
+                const
                     diff = Number(prod.choices[paramId]?.value) - param,
-                    {underMult, overMult, baseMult} = baseMultipliers[paramId]
+                    { underMult, overMult, baseMult } = baseMultipliers[paramId]
                 return diff * baseMult * (diff < 0 ? underMult : overMult)
+            }
+        case "processor":
+            return (prod: ProductOption) => {
+                const
+                    diff = Number(prod.choices[paramId]?.value),
+                    { baseMult } = baseMultipliers[paramId]
+                return diff * baseMult
             }
         case "budget":
             return (prod: ProductOption, param: number) => (param - Number(prod.price)) * baseMultipliers.budget.baseMult * (param - Number(prod.price) < 0 ? baseMultipliers.budget.underMult : baseMultipliers.budget.overMult)
