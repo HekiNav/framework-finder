@@ -6,6 +6,15 @@ import * as _bootstrap from 'bootstrap'
 
 const BASE_URL = import.meta.env.BASE_URL
 
+const images: Record<string, string> = {
+    "laptop12-diy-intel-13gen": "fw-images/fw12.jpg",
+    "laptop13-diy-amd-ai300": "fw-images/fw13-diy.jpg",
+    "laptop-diy-13-gen-amd": "fw-images/fw13-side.jpg",
+    "laptop13-diy-intel-ultra-1": "fw-images/fw13-top.jpg",
+    "laptop16-diy-amd-ai300": "fw-images/fw16-top.jpg",
+    "laptop16-diy-amd-7040": "fw-images/fw16-front.jpg"
+}
+
 const params: Record<string, number | boolean | null> = {
     budget: null,
     storage: null,
@@ -38,7 +47,7 @@ const baseMultipliers = {
     },
     // cpu benchmark scores
     processor: {
-        baseMult: 0.005,
+        baseMult: 0.0045,
         underMult: 1,
         overMult: 1
     }
@@ -82,7 +91,7 @@ generateOptions().then(options => {
         el.addEventListener("click", () => {
             updateParam()
         })
-        updateParam()
+        updateParam(false)
 
         function updateParam(fullUpdate = true) {
             if (output) output.innerHTML = typeFunc((el as HTMLInputElement).value)
@@ -91,9 +100,9 @@ generateOptions().then(options => {
             switch (type) {
                 case "display":
                     const values: Record<string, boolean | null> = {
-                        "btn-radio-display-yes" : true,
-                        "btn-radio-display-neutral" : null,
-                        "btn-radio-display-no" : false
+                        "btn-radio-display-yes": true,
+                        "btn-radio-display-neutral": null,
+                        "btn-radio-display-no": false
                     }
                     const button = document.querySelector("#btn-radio-display")?.querySelector("*:checked")!
                     params.display = values[button?.id]
@@ -179,18 +188,18 @@ function generateSuggestions(options: ProductOption[]) {
     })
     const container = document.querySelector("#suggestion-container")!
     container.innerHTML = ""
-    suggestions.sort((a, b) => b.score - a.score).slice(0,10).forEach(s => {
+    suggestions.sort((a, b) => b.score - a.score).slice(0, 50).forEach(s => {
         container.innerHTML += `
         <div class="card" style="width: 15rem;">
-          <img src="/fw-images/fw12.jpg" class="card-img-top">
+          <img class="card-img-top" style="height: 10rem; background: url(${BASE_URL + images[s.id]}) 15rem/15rem">
           <div class="card-body">
             <h5 class="card-title">${s.title}</h5>
             <h6 class="card-subtitle mb-2 text-body-secondary">${typeFunctions.budget(s.price)} | ${Math.round(s.score)}pts</h6>
             <p class="card-text">
-              ${Object.entries(s.choices).reduce((prev, [id, {name}]) => prev+`
+              ${Object.entries(s.choices).reduce((prev, [id, { name }]) => prev + `
                 ${names[id]}: ${name}<br>
                 `
-            ,"")}
+            , "")}
             </p>
           </div>
         </div>`

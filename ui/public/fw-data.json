@@ -1612,6 +1612,17 @@
                 ]
             },
             {
+                "id": "display",
+                "title": "Display",
+                "options": [
+                    {
+                        "name": "2.6K Display",
+                        "price": 0,
+                        "value": true
+                    }
+                ]
+            },
+            {
                 "id": "memory",
                 "title": "Memory",
                 "options": [
@@ -1883,6 +1894,17 @@
                         "name": "Ryzen™ 9 7940HS",
                         "price": 1719,
                         "value": 29980
+                    }
+                ]
+            },
+            {
+                "id": "display",
+                "title": "Display",
+                "options": [
+                    {
+                        "name": "2.6K Display",
+                        "price": 0,
+                        "value": true
                     }
                 ]
             },
