@@ -12,12 +12,19 @@ const params: Record<string, number | boolean | null> = {
     memory: null,
     display: null
 }
-
+const names: Record<string, string> = {
+    storage: "Storage",
+    memory: "Memory",
+    processor: "CPU",
+    display: "Display"
+}
+// how much score different attributes get
+// basemult is applied always, and under/overmult on top of that
 const baseMultipliers = {
     budget: {
         baseMult: 0.125,
         underMult: 1,
-        overMult: 0
+        overMult: 0.5
     },
     storage: {
         baseMult: 8,
@@ -29,6 +36,7 @@ const baseMultipliers = {
         underMult: 1,
         overMult: 0.5
     },
+    // cpu benchmark scores
     processor: {
         baseMult: 0.005,
         underMult: 1,
@@ -59,27 +67,37 @@ generateOptions().then(options => {
     console.log(options)
     document.querySelectorAll(".opens-section").forEach(el => {
         el.addEventListener("click", () => openSection(el.getAttribute("data-section")!))
-    })
+    });
 
 
-    document.querySelectorAll(".range-output").forEach((el) => {
+    [...Array.from(document.querySelectorAll(".range-output")), ...Array.from(document.querySelectorAll(".radio-output"))].forEach((el) => {
         const typeFunc = typeFunctions[el.getAttribute("data-type") || "number"]
-        const output = document.querySelector(`output[for=${el.id}]`)!
+        const output = document.querySelector(`output[for=${el.id}]`)
         el.addEventListener("mousemove", () => {
             updateParam(false)
         })
         el.addEventListener("change", () => {
             updateParam()
         })
+        el.addEventListener("click", () => {
+            updateParam()
+        })
         updateParam()
 
         function updateParam(fullUpdate = true) {
-            output.innerHTML = typeFunc((el as HTMLInputElement).value)
+            if (output) output.innerHTML = typeFunc((el as HTMLInputElement).value)
             if (!fullUpdate) return
             const type = el.getAttribute("data-type")!
             switch (type) {
                 case "display":
-                    params.display = null
+                    const values: Record<string, boolean | null> = {
+                        "btn-radio-display-yes" : true,
+                        "btn-radio-display-neutral" : null,
+                        "btn-radio-display-no" : false
+                    }
+                    const button = document.querySelector("#btn-radio-display")?.querySelector("*:checked")!
+                    params.display = values[button?.id]
+                    console.log(values, button.id)
                     break;
                 default:
                     params[type] = Number((el as HTMLInputElement).value)
@@ -89,6 +107,7 @@ generateOptions().then(options => {
         }
     })
 })
+
 
 interface Product {
     id: string,
@@ -151,19 +170,37 @@ async function generateOptions() {
 function generateSuggestions(options: ProductOption[]) {
     const suggestions = options.map(o => ({ ...o, score: 0 }));
     [...Object.entries(params), ["processor", ""]].forEach(([id, value]) => {
+        //console.log(id, value)
         if (value == null) return
         else suggestions.forEach(s => {
             const whitelist = ["budget"]
             s.score += Object.keys(s.choices).some(k => k == id) || whitelist.some(item => item == id) ? scoreFunction(id)(s, value) : 0
         })
     })
-    console.log(suggestions.sort((a, b) => b.score - a.score)[0])
+    const container = document.querySelector("#suggestion-container")!
+    container.innerHTML = ""
+    suggestions.sort((a, b) => b.score - a.score).slice(0,10).forEach(s => {
+        container.innerHTML += `
+        <div class="card" style="width: 15rem;">
+          <img src="/fw-images/fw12.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">${s.title}</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">${typeFunctions.budget(s.price)} | ${Math.round(s.score)}pts</h6>
+            <p class="card-text">
+              ${Object.entries(s.choices).reduce((prev, [id, {name}]) => prev+`
+                ${names[id]}: ${name}<br>
+                `
+            ,"")}
+            </p>
+          </div>
+        </div>`
+    });
 }
 
 function scoreFunction(paramId: string): Function {
-    console.log(paramId)
     switch (paramId) {
         case "display":
+            console.log("h")
             return (prod: ProductOption, param: boolean) => prod.choices.display?.value == param ? 20 : 0
         case "memory":
         case "storage":

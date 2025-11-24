@@ -133,7 +133,7 @@
                         "value": 48
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0,
                         "value": 0
                     }
@@ -159,7 +159,7 @@
                         "value": 3
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0,
                         "value": 0
                     }
@@ -178,7 +178,7 @@
                         "price": 259
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0
                     }
                 ]
@@ -278,7 +278,7 @@
                         "price": 49
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0
                     }
                 ]
@@ -482,7 +482,7 @@
                         "value": 96
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0,
                         "value": 0
                     }
@@ -518,7 +518,7 @@
                         "value": 5
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0,
                         "value": 0
                     }
@@ -537,7 +537,7 @@
                         "price": 259
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0
                     }
                 ]
@@ -695,7 +695,7 @@
                         "price": 49
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0
                     }
                 ]
@@ -771,7 +771,7 @@
                         "value": 96
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0,
                         "value": 0
                     }
@@ -807,7 +807,7 @@
                         "value": 5
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0,
                         "value": 0
                     }
@@ -826,7 +826,7 @@
                         "price": 259
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0
                     }
                 ]
@@ -992,7 +992,7 @@
                         "price": 49
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0
                     }
                 ]
@@ -1078,7 +1078,7 @@
                         "value": 96
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0,
                         "value": 0
                     }
@@ -1114,7 +1114,7 @@
                         "value": 5
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0,
                         "value": 0
                     }
@@ -1133,7 +1133,7 @@
                         "price": 259
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0
                     }
                 ]
@@ -1299,7 +1299,7 @@
                         "price": 49
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0
                     }
                 ]
@@ -1646,7 +1646,7 @@
                         "value": 96
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0,
                         "value": 0
                     }
@@ -1665,7 +1665,7 @@
                         "price": 259
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0
                     }
                 ]
@@ -1795,7 +1795,7 @@
                         "price": 120
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0
                     }
                 ]
@@ -1853,7 +1853,7 @@
                         "value": 5
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0,
                         "value": 0
                     }
@@ -1921,7 +1921,7 @@
                         "value": 96
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0,
                         "value": 0
                     }
@@ -1940,7 +1940,7 @@
                         "price": 259
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0
                     }
                 ]
@@ -2066,7 +2066,7 @@
                 "title": "Power Adapter",
                 "options": [
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0
                     },
                     {
@@ -2124,7 +2124,7 @@
                         "value": 5
                     },
                     {
-                        "name": "None (bring your own)",
+                        "name": "None",
                         "price": 0,
                         "value": 0
                     }
