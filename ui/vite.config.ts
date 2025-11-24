@@ -1,4 +1,6 @@
-export default {
+import { defineConfig } from 'vite'
+
+export default defineConfig({
   css: {
      preprocessorOptions: {
         scss: {
@@ -10,4 +12,5 @@ export default {
         },
      },
   },
-}
+  base: '/framework-finder/',
+})

@@ -1,5 +1,5 @@
 # Framework Finder
-A web app which calculates the best framework laptop model and configuration for your needs. Built with Bootstrap, Typecript and Vite.
+A web app which calculates the best framework laptop model and configuration for your needs. Built with Bootstrap, Typecript and Vite. Made for [siege](https://siege.hackclub.com)
 
 ## Features
 - Data scraping with Playwright
@@ -30,3 +30,6 @@ or
 
 3. Build `npm run build`
 4. Preview build in `./dist` with `npm run preview`
+
+## AI/LLM usage
+No AI generated content/code was used in this project
