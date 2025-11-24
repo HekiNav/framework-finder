@@ -24,19 +24,18 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
 
-      - name: Move to UI dir
-        run: cd ui
-
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        working-directory: ./ui
+        run: npm install
 
       - name: Build project
+        working-directory: ./ui
         run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: './ui/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
