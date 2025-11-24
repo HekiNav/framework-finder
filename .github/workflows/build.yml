@@ -25,7 +25,7 @@ jobs:
         uses: actions/setup-node@v4
 
       - name: Move to UI dir
-        uses: cd ui
+        run: cd ui
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
